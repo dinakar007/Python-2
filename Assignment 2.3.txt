@@ -1,0 +1,4 @@
+word = input("Enter any word in the console : ")
+print(word)
+print ('The Reverse of the word you entered is')
+print(''.join(reversed(word)))
