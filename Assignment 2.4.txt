@@ -1,0 +1,1 @@
+print("WE, THE PEOPLE OF INDIA,\n\thaving solemnly reolsved to consitutue india into a SOVEREIGN,! \n\t\tSOCIALIST,SECULAR,DEMOCRATIC REPUBLIC \n\t\t and to secure to all its citizens: ")
