@@ -1,0 +1,33 @@
+Problem # 1
+
+#myreduce similar to reduce 
+myreduce = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+sum = 0
+for val in myreduce:
+	sum = sum+val
+print("The sum is", sum)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Above myreduce, using reduc function 
+myreduce = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+reduce(lambda x,y:x+y, myreduce)
+
+
+
+
+Problem # 2
+
+
+# Filter out only even numbers from the given list
+
+
+def myfilter(l):
+    enum = []
+    for n in l:
+        if n % 2 == 0:
+            enum.append(n)
+    return enum
+print(myfilter([1, 2, 3, 4, 5, 6, 7, 8, 9,10,12,14,16,18]))
+
+[2, 4, 6, 8, 10, 12, 14, 16, 18]
